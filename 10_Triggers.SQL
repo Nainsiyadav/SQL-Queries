@@ -1,0 +1,61 @@
+--TRIGGERS (SQL PLUS)
+
+-- 1) CREATE TABLE
+
+CREATE TABLE student (
+    id NUMBER PRIMARY KEY,
+    name VARCHAR2(50)
+);
+
+
+-- 2) ENABLE OUTPUT
+
+SET SERVEROUTPUT ON;
+
+
+-- 3) CREATE TRIGGER (INSERT)
+
+CREATE OR REPLACE TRIGGER student_trigger
+BEFORE INSERT ON student
+FOR EACH ROW
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('New student inserted');
+END;
+/
+
+-- INSERT DATA
+
+INSERT INTO student VALUES (1, 'Rahul');
+
+
+
+
+-- UPDATE TRIGGER
+
+CREATE OR REPLACE TRIGGER update_trigger
+BEFORE UPDATE ON student
+FOR EACH ROW
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Student updated');
+END;
+/
+
+-- UPDATE TRIGGER
+UPDATE student SET name = 'Rohit' WHERE id = 1;
+
+
+
+-- DELETE TRIGGER
+
+CREATE OR REPLACE TRIGGER delete_trigger
+BEFORE DELETE ON student
+FOR EACH ROW
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Student deleted');
+END;
+/
+
+-- DELETE TRIGGER
+DELETE FROM student WHERE id = 1;
+
+
