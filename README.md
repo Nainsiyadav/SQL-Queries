@@ -12,6 +12,8 @@ It is created to practice and understand core Database Management System (DBMS) 
 - GROUP BY and HAVING
 - Joins (INNER JOIN)
 - Subqueries
+- Triggers
+- Creating View
 - Table Creation and Constraints
 
 ## 🛠️ Technologies Used
@@ -19,15 +21,18 @@ It is created to practice and understand core Database Management System (DBMS) 
 - DBMS Concepts
 
 ## 📂 Repository Structure
-- `01_Create_Insert.sql` → Database & table creation + data insertion  
+- `01_Basic_Queries.sql` → Database & table creation + data insertion  
 - `02_Select.sql` → Basic SELECT queries  
 - `03_Conditions.sql` → Filtering queries  
 - `04_Aggregate.sql` → Aggregate functions  
 - `05_GroupBy.sql` → GROUP BY & HAVING  
 - `06_Joins.sql` → JOIN operations  
 - `07_Update_Delete.sql` → UPDATE & DELETE  
-- `08_Subqueries.sql` → Subqueries  
+- `08_Subquries.sql` → Subqueries
+- `09_View.sql` → Subqueries
+- `10_Triggers.sql` → Subqueries
 
+  
 ## ▶️ How to Use
 1. Open any SQL tool (MySQL / SQLPlus)
 2. Run the queries step by step
