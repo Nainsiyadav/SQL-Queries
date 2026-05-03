@@ -15,6 +15,7 @@ It is created to practice and understand core Database Management System (DBMS) 
 - Triggers
 - Creating View
 - Table Creation and Constraints
+- Functions(Covers String, Math, and Date Functions with examples)
 
 ## 🛠️ Technologies Used
 - SQL
@@ -30,7 +31,9 @@ It is created to practice and understand core Database Management System (DBMS) 
 - `07_Update_Delete.sql` → UPDATE & DELETE  
 - `08_Subquries.sql` → Subqueries
 - `09_View.sql` → Subqueries
-- `10_Triggers.sql` → Subqueries
+- `10_Triggers.sql` → 
+- `11_Functions.sql` → Subqueries
+
 
   
 ## ▶️ How to Use
